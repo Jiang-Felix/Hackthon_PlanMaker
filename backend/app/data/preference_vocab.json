@@ -1,0 +1,132 @@
+{
+  "version": 1,
+  "note": "扩展软偏好词表 —— 单一来源,供 mock 解析 / harness context / 前端榜单三方共用。AI 只能从此词表选标签。",
+  "categories": [
+    {
+      "key": "transport",
+      "label": "出行方式",
+      "emoji": "🚇",
+      "tags": [
+        { "id": "tr_walk", "label": "步行友好", "aliases": ["喜欢走路", "不怕走", "走路没问题", "能走"] },
+        { "id": "tr_taxi", "label": "愿意打车", "aliases": ["打车", "可以打车", "多打车"] },
+        { "id": "tr_transit", "label": "公共交通", "aliases": ["地铁", "公交", "坐地铁"] },
+        { "id": "tr_traffic", "label": "怕堵车", "aliases": ["讨厌堵车", "不想堵在路上", "怕堵"] }
+      ]
+    },
+    {
+      "key": "energy",
+      "label": "体力分配",
+      "emoji": "🔋",
+      "tags": [
+        { "id": "en_light", "label": "轻松为主", "aliases": ["怕累", "不想走太多", "体力一般", "别太累"] },
+        { "id": "en_mid", "label": "适中", "aliases": ["正常强度", "适中"] },
+        { "id": "en_hard", "label": "能暴走", "aliases": ["体力好", "走一天没问题", "暴走", "不怕累"] }
+      ]
+    },
+    {
+      "key": "weather",
+      "label": "天气态度",
+      "emoji": "🌦️",
+      "tags": [
+        { "id": "w_rain_ok", "label": "雨天也能出门", "aliases": ["下雨也行", "不怕下雨", "雨天可以"] },
+        { "id": "w_rain_no", "label": "下雨不出门", "aliases": ["下雨不想出门", "不想出门", "雨天不出门", "怕下雨"] },
+        { "id": "w_indoor", "label": "偏好室内", "aliases": ["怕晒", "室内为主", "不想晒太阳"] }
+      ]
+    },
+    {
+      "key": "spending",
+      "label": "消费倾向",
+      "emoji": "💰",
+      "tags": [
+        { "id": "sp_food", "label": "钱花在吃", "aliases": ["重吃", "吃货", "吃上舍得花"] },
+        { "id": "sp_sight", "label": "钱花在景点", "aliases": ["愿意买门票", "景点舍得花"] },
+        { "id": "sp_shop", "label": "钱花在购物", "aliases": ["爱买", "喜欢逛街买东西"] },
+        { "id": "sp_budget", "label": "严格控预算", "aliases": ["别超支", "省着花", "控制预算"] },
+        { "id": "sp_over", "label": "可接受超支", "aliases": ["超一点没事", "不介意超预算"] }
+      ]
+    },
+    {
+      "key": "rhythm",
+      "label": "作息节奏",
+      "emoji": "⏰",
+      "tags": [
+        { "id": "rh_early", "label": "早起出发", "aliases": ["早上出门", "早起"] },
+        { "id": "rh_late", "label": "晚起", "aliases": ["睡到自然醒", "不想早起"] },
+        { "id": "rh_nap", "label": "需要午休", "aliases": ["午睡", "需要午休"] },
+        { "id": "rh_night", "label": "接受夜间活动", "aliases": ["夜景", "晚上也玩", "夜游"] },
+        { "id": "rh_stayup", "label": "可以熬夜", "aliases": ["熬夜没问题", "熬夜"] }
+      ]
+    },
+    {
+      "key": "density",
+      "label": "行程密度",
+      "emoji": "📅",
+      "tags": [
+        { "id": "de_loose", "label": "行程宽松", "aliases": ["别太赶", "悠闲", "慢慢来"] },
+        { "id": "de_mid", "label": "适中", "aliases": ["正常节奏", "适中"] },
+        { "id": "de_full", "label": "尽量排满", "aliases": ["不想浪费时间", "多玩几个", "排满"] }
+      ]
+    },
+    {
+      "key": "pace",
+      "label": "单点紧迫度",
+      "emoji": "⏱️",
+      "tags": [
+        { "id": "pa_rush", "label": "打卡式快看", "aliases": ["快速打卡", "看一眼就走"] },
+        { "id": "pa_deep", "label": "深度慢逛", "aliases": ["慢慢看", "细看", "深度游"] }
+      ]
+    },
+    {
+      "key": "lodging",
+      "label": "住宿类型",
+      "emoji": "🏨",
+      "tags": [
+        { "id": "lo_hotel", "label": "住酒店", "aliases": ["酒店"] },
+        { "id": "lo_hostel", "label": "青旅/民宿", "aliases": ["民宿", "青旅"] },
+        { "id": "lo_center", "label": "位置优先(近市区)", "aliases": ["住市中心", "位置方便"] },
+        { "id": "lo_cheap", "label": "价格优先", "aliases": ["住便宜的", "住宿省钱"] }
+      ]
+    },
+    {
+      "key": "social",
+      "label": "同行社交",
+      "emoji": "👥",
+      "tags": [
+        { "id": "so_together", "label": "全程同行", "aliases": ["不想分开", "一起走"] },
+        { "id": "so_split", "label": "可分组行动", "aliases": ["分开逛也行", "分组"] },
+        { "id": "so_meet", "label": "分头后集合", "aliases": ["约好时间碰头", "分头行动"] }
+      ]
+    },
+    {
+      "key": "diet",
+      "label": "饮食",
+      "emoji": "🍜",
+      "tags": [
+        { "id": "di_spicy", "label": "能吃辣", "aliases": ["无辣不欢", "能吃辣", "吃辣", "可以吃辣"] },
+        { "id": "di_mild", "label": "不吃辣", "aliases": ["怕辣", "清淡", "不吃辣", "吃不了辣"] },
+        { "id": "di_supper", "label": "可以夜宵", "aliases": ["宵夜", "夜宵", "吃夜宵", "接受夜宵"] },
+        { "id": "di_veg", "label": "素食", "aliases": ["吃素", "素食"] },
+        { "id": "di_regular", "label": "按时吃饭", "aliases": ["三餐规律", "按时吃饭"] }
+      ]
+    }
+  ],
+  "reco_options": {
+    "note": "全局推荐设置的可选项(单一来源,前端控件与 AI 提示共用)",
+    "conflict_strategy": [
+      { "id": "rotate", "label": "轮换优先", "aliases": ["轮换", "轮流照顾", "这次该谁优先"] },
+      { "id": "split", "label": "分组出游", "aliases": ["分组", "分开玩", "分组行动"] },
+      { "id": "majority", "label": "服从多数", "aliases": ["少数服从多数", "多数决"] }
+    ],
+    "schedule_align": [
+      { "id": "left", "label": "左对齐", "aliases": ["先紧后松", "早点结束"] },
+      { "id": "center", "label": "居中", "aliases": ["前后都留空", "中间集中"] },
+      { "id": "right", "label": "右对齐", "aliases": ["后紧前松", "最后几天集中"] },
+      { "id": "fill", "label": "填充", "aliases": ["尽量排满", "每天都有活动"] }
+    ],
+    "activity_priorities": [
+      { "id": "avoid_similar", "label": "避免雷同", "aliases": ["别安排重复的", "别重复", "重复的", "不想要相似的", "避免雷同"] },
+      { "id": "cluster_theme", "label": "同主题聚集", "aliases": ["同类型的放一起", "同类型", "放一起", "主题集中", "扎堆"] },
+      { "id": "food_balance", "label": "饮食均衡", "aliases": ["口味均衡", "每天吃的别太重", "饮食均衡"] }
+    ]
+  }
+}
