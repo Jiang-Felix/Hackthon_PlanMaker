@@ -253,3 +253,7 @@ cd backend && python -m pytest tests -q        # 126 个用例
 
 > 这些方向都不改变现有决策内核:AI 编排 + 确定性守门、公平账本、可解释取舍 —— 只是把数据源、
 > 用户体系与预算模型接到真实世界。
+
+## 🚀 Live Demo
+
+👉 [Try Trip Balancer](https://trip-balancer.onrender.com)
